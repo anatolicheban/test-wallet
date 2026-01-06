@@ -13,7 +13,13 @@ export const Overview = () => {
           Anatoli Cheban
         </a>
         . You can view the source code{" "}
-        <a href="https://github.com/anatolicheban/test-wallet">here</a>. Enjoy!
+        <a
+          href="https://github.com/anatolicheban/test-wallet"
+          target={"_blank"}
+        >
+          here
+        </a>
+        . Enjoy!
       </p>
     </div>
   );
