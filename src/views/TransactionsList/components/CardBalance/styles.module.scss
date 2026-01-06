@@ -1,0 +1,17 @@
+.cardBalance {
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  h4 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+    &:last-child {
+      color: #888888;
+    }
+  }
+}

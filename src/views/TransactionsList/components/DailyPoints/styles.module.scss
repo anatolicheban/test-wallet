@@ -1,0 +1,14 @@
+.dailyPoints {
+  padding: 16px 8px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    font-size: 12px;
+    &:last-child {
+      color: #888888;
+    }
+  }
+}

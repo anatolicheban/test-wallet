@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  align-items: center;
+  .backBtn {
+    border: 0;
+    background: transparent;
+    padding: 10px;
+    color: #007aff;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border-radius: 4px;
+    &:hover {
+      background: rgba(#000, 0.05);
+    }
+  }
+}
+
+.main {
+  max-width: 480px;
+  margin: 0 auto;
+  .amountBlock {
+    text-align: center;
+    padding: 8px 0 18px;
+    .amount {
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+    }
+    .merchant {
+      margin-top: 6px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #222;
+    }
+    .dateTime {
+      margin-top: 4px;
+      font-size: 14px;
+      color: #8e8e93; // iOS secondary label
+    }
+  }
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+    width: 100%;
+    .row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 14px 16px;
+      gap: 12px;
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .rowTitle {
+        font-size: 15px;
+        font-weight: 600;
+        color: #111;
+      }
+      .rowSub {
+        font-size: 14px;
+        color: #8e8e93;
+      }
+      .total {
+        font-size: 15px;
+        font-weight: 600;
+        color: #111;
+        white-space: nowrap;
+      }
+    }
+  }
+  .divider {
+    height: 1px;
+    background: #ededf0;
+  }
+}

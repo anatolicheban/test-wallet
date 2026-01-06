@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+ul,
+li {
+  padding-inline: 0;
+  margin-block: 0;
+}
+
+img {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+}
+
+button {
+  color: inherit;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  border-radius: 0;
+}
